@@ -1,0 +1,23 @@
+{
+  "name": "vue-cli-plugin-platformsh",
+  "version": "1.0.1",
+  "description": "vue-cli plugin to add Platform.sh configuration files to a Vue.js project",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/GuGuss/vue-cli-plugin-platformsh.git"
+  },
+  "keywords": [
+    "platformsh",
+    "vue",
+    "vue-cli",
+    "plugin",
+    "cli"
+  ],
+  "author": "GuGuss",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GuGuss/vue-cli-plugin-platformsh/issues"
+  },
+  "homepage": "https://github.com/GuGuss/vue-cli-plugin-platformsh#readme"
+}
