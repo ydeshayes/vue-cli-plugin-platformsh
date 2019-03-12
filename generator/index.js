@@ -13,12 +13,4 @@ module.exports = (api, opts, rootOptions) => {
     './.platform/routes.yaml': './template/.platform/routes.yaml',
     './.platform.app.yaml': './template/.platform.app.yaml'
   })
-
-  configureWebpack: webpackConfig => {
-    if (process.env.NODE_ENV === 'production') {
-      webpackConfig.externals({
-        'platformsh_variables': 'platformsh_variables'
-      })
-    }
-  }
 }
