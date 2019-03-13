@@ -1,6 +1,7 @@
 module.exports = {
-  configureWebpack: {
-    externals: {
+  configureWebpack: config => {
+    config.externals = {
+       ...config.externals,
       platformsh_variables: 'platformsh_variables'
     }
   }
